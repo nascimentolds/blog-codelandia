@@ -1,8 +1,38 @@
-# React + Vite
+# Codolandia - Desafio 1 blog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a solution to the [Desafio 1 blog on Codolandia](https://github.com/iuricode/desafios-frontend). Codelândia Frontend Challenges is an open-source project and a set of challenges developed by the Codelândia community on Discord. Its purpose is to help people practice their frontend development skills, covering areas such as HTML, CSS, JavaScript, and also libraries like React and Next.js.
 
-Currently, two official plugins are available:
+## Table of contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+  - [Getting Started with Create React App](#getting-started-with-create-react-app)
+- [My process](#my-process)
+  - [Built with](#built-with)
+
+## Overview
+
+### Screenshot
+
+![screenshot](/src/assets/images/screenshot.png)
+
+### Links
+
+- Live Site URL: [@Vercel](https://blog-codelandia-gold.vercel.app/)
+- Solution URL: [@GitHub](https://github.com/nascimentolds/blog-codelandia)
+
+### Getting Started with Vite
+
+This project was bootstrapped with [Vite](https://vitejs.dev/guide/).
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Mobile first workflow
+- Flexbox
+- React.JS
+- Vite
