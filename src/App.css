@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root {
+  --dark-10: #121214;
+  --dark-20: #17171A;
+  --dark-30: #202024;
+  --dark-40: #252529;
+  --dark-50: #AFABB6;
+  --dark-60: #FFFFFF;
+  --brand-color: #E07B67;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--dark-10);
+  color: var(--dark-60);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  padding: 50px 25px;
+  background-color: var(--dark-20);
+}
+
+.header__logo {
+  width: 130px;
+}
+
+.header__input {
+  background-color: transparent;
+  border: none;
+  padding: 16px 2px;
+  width: 100%;
+  color: var(--dark-50);
+}
+
+.header__input:focus {
+  outline: none;
+}
+
+.header__input-container {
+  display: flex;
+  align-items: center;
+  color: var(--brand-color);
+  width: 100%;
+  background-color: var(--dark-30);
+  border: solid 1px var(--dark-40);
+  border-radius: 8px;
+  padding-inline: 5px;
+}
+
+.header__input-container:focus-within {
+  border-color: var(--brand-color)
+}
+
+.header__icon-search {
+  width: 50px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+ padding: 40px 25px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px 25px;
+  background-color: var(--dark-20);
+  border: solid 1px var(--dark-40);
+  border-radius: 8px;
+}
+
+.card__header {
+  display: flex;
+  justify-content: space-between;
+  color: var(--brand-color);
+}
+
+.card__date {
+  font-size: 0.75rem;
+}
+
+.card__like {
+  font-size: 1.2rem;
+}
+
+.card__title {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.card__content {
+  font-size: 0.875rem;
+  color: var(--dark-50);
+  line-height: 1.3rem;
+}
+
+
