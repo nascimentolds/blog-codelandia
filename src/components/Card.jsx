@@ -1,18 +1,18 @@
-import { IoHeartOutline } from "react-icons/io5";
+import { GoHeart, GoHeartFill } from 'react-icons/go';
 
-export default function Card(props) {
-    return (
-        <article className="card">
-            <div className="card__header">
-                <div className="card__date">{props.data.postDate}</div>
-                <div className="card__like">
-                    <IoHeartOutline />
-                </div>
-            </div>
-            <h2 className="card__title">{props.data.title}</h2>
-            <p className="card__content">
-                {props.data.content}
-            </p>
-        </article>
-    )
+export default function Card({ data, toggleLike }) {
+  return (
+    <article className={`card ${data.isLiked && "card-active"}`}>
+      <div className="card__header">
+        <div className="card__date">{data.postDate}</div>
+        <button className="card__like" onClick={() => toggleLike(data.id)}>
+          {data.isLiked ? <GoHeartFill /> : <GoHeart />}
+        </button>
+      </div>
+      <h2 className="card__title">{data.title}</h2>
+      <p className="card__content">
+        {data.content}
+      </p>
+    </article>
+  );
 }

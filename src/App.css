@@ -83,6 +83,10 @@ body {
   border-radius: 8px;
 }
 
+.card-active {
+  border: solid 1px var(--brand-color);
+}
+
 .card__header {
   display: flex;
   justify-content: space-between;
@@ -94,7 +98,14 @@ body {
 }
 
 .card__like {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 1.2rem;
+  color: var(--brand-color);
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .card__title {
