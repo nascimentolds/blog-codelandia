@@ -15,7 +15,7 @@ This is a solution to the [Desafio 1 blog on Codolandia](https://github.com/iuri
 
 ### Screenshot
 
-![screenshot](/src/assets/images/screenshot.png)
+![screenshot](./src/assets/images/screeshot.png)
 
 ### Links
 
